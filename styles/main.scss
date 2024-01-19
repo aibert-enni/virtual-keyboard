@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+img, picture, video, canvas, svg{
+    display: block;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+p, h1, h2, h3, h4, h5, h6{
+    overflow-wrap: break-word;
+    font-weight: 400;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+button{
+    background: transparent;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.textBox {
+    width: 100%;
+    height: 150px;
+}
+
+.line {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+
+.keyboard__key {
+    height: 60px;
+    min-width: 60px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+    text-align: center;
+}
+
+.type-key {
+    width: 60px;
+    background-color: #f77f00;
+    color: #fff;
+}
+
+.function-key {
+    width: 50px;
+    background-color: #d62828;
+    color: #fff;
+}
+
+.main-symbol {
+    font-size: 20px;
+}
+
+.second-symbol {
+    font-size: 13px;
+    position: absolute;
+    left: 10px;
+    top: 2px;
+}
+
+.key-ArrowUp {
+    width: 50px;
+}
+
+.key-Shift {
+    width: 90px;
+}
+
+.key-Control {
+    width: 100px;
+}
+
+.key-Spacebar {
+    width: 300px;
+}
